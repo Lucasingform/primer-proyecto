@@ -26,3 +26,20 @@ juan_mayor_edad = True
 nombre = "juan"
 edad= 25
 print ("la persona se llama: "+nombre)
+ 
+ #strings
+ #un string es una secuencia de caracteres encerrada entre comillas simples (´) o dobles (")
+ 
+mensaje="hola, mundo"
+nombre= ´cesar´
+#veamos operaciones con strings
+#1 concatenacion: une dos o varios strings en una cadena con el simbolo +
+saludo= "HOLA"
+nombre="pedro"
+apellido= "pascal"
+print(saludo+" "+nombre+" "+apellido)
+
+#2 repeticion: repite el string las veces que necesites con el simbolo *
+print ("hola ignacia"*3)
+
+#3 indexacion
