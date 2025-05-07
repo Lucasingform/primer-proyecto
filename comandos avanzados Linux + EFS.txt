@@ -1,0 +1,30 @@
+comandos avanzados Linux + EFS
+pasos:
+
+1-creando el disco efs
+2-editando grupo de seguridad de la instancia ec2 que estamos trabajando.
+. pestaña de seguridad (ec2)
++ reglas de entrada.
+3- seleccionamos nuestro grupo de seguridad y "agregamos NFS" "!!NO ELIMINAR NI EDITAR EL GRUPO ORIGINAL (ssh)!!"
+4- volvemos a efs y apretamos la opción "asociar"
+5- seleccionamos " montar a travez de la ip"
+6- buscamos la "zona de disponibilidad" que esta trabajando mi instancia EC2
+7- copiamos el comando/ código.
+8- seguimos en el disco efs y nos vamos a la pestaña red
+9- presionamos botón "administrar"
+10- borramos zonas de disponibilidad que no vamos a ocupar
+11- seleccionamos grupo de seguridad que editamos en ec2
+12- abrir putty por ssh
+.
+creamos nuevo directorio (efs) y pegamos comando / código del disco que debemos montar/
+.
+se debe cambiar la ruta: /home/ec2-user/efs
+comando para corroborar que se haya montado el disco, "df -h"
+..
+crear nuevos directorios, dentro de efs
+creamos nuevos archivos
+copiamos un código, para después pegarlo al final del archivo /etc/fstab
+y reiniciamos la maquina,
+……
+corroboramos que siga montado el disco con "df -h"
+y corroboramos que los directorios y archivos esten aun creados (cd- ls)

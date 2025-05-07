@@ -1,0 +1,58 @@
+comandos básicos Linux: + ec2
+mkdir: crear nuevo directorio
+touch: crea archivo vacio
+Ls: muestra lista directorios o archivos
+ll: muestra lista de directorios o archivos mostrando sus respectivos permisos (RWX)
+
+chmod: cambia los permisos de in directorio o archivo
+(RWX,RWX,RWX)
+1- PROPIETARIO, USUARIO
+2- GRUPO
+3- OTROS USUARIOS
+
+chown: cambia el "usuario" de un directorio/archivo
+chgrp: cambia el "grupo" de un directorio/archivo
+nano: editor de texto, Crea/edita un archivo
+useradd: agrega un nuevo usuario
+userdel: elimina un usuario
+usermod: cambia/agrega un usuario a un grupo
+groupadd: agrega un nuevo grupo
+groupdel: elimina un grupo
+/etc/passwd: muestra lista de usuarios
+/etc/shadow: muestra la contraseña encriptada
+/etc/group: muestra lista de grupos
+
+Rm -r: elimina un directorio/archivo que contenga información.
+Rmdir: elimina un directorio vacio
+Cp: copia, ejemplo: archivo a un  directorio
+Mv: mueve, ejemplo: un archivo a un directorio
+pwd: muestra el directorio (dirección) actual
+cat: muestra la información que hay en un archivo
+
+scripting: (.sh)
+es un archivo ejecutable
+p1- se crea un archivo .sh o .txt
+p2- se agrega los permisos ejecutables (x) a todos los propietarios, grupos y otros usuarios
+p3- se edita el texto #!/bin/bash
+p4- se ejecuta: ./ejemplo.sh
+
+sudo su: podemos ingresar a la consola como superusuarios, (usuario:root)
+Su - (nombre usuario): ingresamos a nuevo usuario con todos los permisos e "administrador"
+
+atajos de nano:
+1- ctrl+O : guardar cambios * enter para confirmar cambios
+2- Ctrl+X: sale de nano
+
+exit: comando para salir de un usuario / apagar consola
+cd: cambiar de directorio
+Cd .. : vuelve atras
+
+~: /home
+/: /-> raiz
+
+
+
+
+
+
+
